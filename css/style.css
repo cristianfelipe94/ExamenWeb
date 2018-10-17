@@ -4,26 +4,32 @@
   display: block; }
 
 html {
-  font-family: 'Titillium Web', sans-serif; }
+  color: #f7f3ea;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 18px; }
 
 .firstBlock {
   background-color: #87509c;
-  height: 448px;
-  width: 100vw; }
+  width: 100vw;
+  height: 451px; }
 
 .navBarRow {
-  margin: 0 210px 73.5px; }
+  margin: 0 210px 73.5px;
+  font-size: 16px;
+  padding-top: 58px; }
 
 .navMainBar {
   float: right;
   margin: 12px;
-  padding: 8px; }
+  padding: 8px;
+  text-transform: uppercase; }
   .navMainBar:hover {
     background-color: #643a79; }
 
 .welcomeBanner {
   width: 907px;
-  margin: 30.5px auto; }
+  margin: 30.5px auto;
+  font-size: 42.16px; }
 
 .welcomeText {
   text-align: center;
@@ -38,11 +44,55 @@ html {
 
 .workWithUsBtn p {
   padding: 22px 72px;
-  margin: 0; }
+  margin: 0;
+  text-transform: uppercase; }
 
 .secondBlock {
   background-color: #17c2a4;
-  height: 747px; }
+  height: 677px;
+  width: 100vw; }
+
+.secondBlockTitle {
+  margin: 0 auto;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 120px; }
+
+.secondBlockTitle p {
+  margin: 0; }
+
+.breakLine {
+  background-color: #14a58c;
+  width: 87px;
+  height: 4px;
+  margin: 22px auto; }
+
+.secondBlockIntro {
+  margin-bottom: 41px; }
+
+.secondBlockIntroText {
+  text-align: center;
+  margin: 0; }
+
+.iconsRowBanner {
+  margin: 0 auto;
+  width: 988px; }
+
+.iconsBanner {
+  display: inline-block;
+  width: 194px;
+  margin: 25px;
+  text-align: center; }
+
+.iconsBanner p {
+  font-size: 16px; }
+
+.iconsBanner h3 {
+  font-size: 24px; }
+
+.iconsItself {
+  width: 120px; }
 
 .thirdBlock {
   background-color: #3c5499;
