@@ -40,7 +40,8 @@ html {
   height: 64px;
   margin: 30.5px auto;
   text-align: center;
-  border-bottom: 4px solid #c86a40; }
+  border-bottom: 4px solid #c86a40;
+  background-color: #eb7d4b; }
 
 .workWithUsBtn p {
   padding: 22px 72px;
@@ -62,7 +63,7 @@ html {
 .secondBlockTitle p {
   margin: 0; }
 
-.breakLine {
+.breakLineOne {
   background-color: #14a58c;
   width: 87px;
   height: 4px;
@@ -98,12 +99,45 @@ html {
   background-color: #3c5499;
   height: 804px; }
 
+.thirdBlockTitle {
+  margin: 0 auto;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 100px; }
+
+.thirdBlockTitle p {
+  margin: 0; }
+
+.breakLineTwo {
+  background-color: #273a71;
+  width: 87px;
+  height: 4px;
+  margin: 22px auto; }
+
+.addressText {
+  font-size: 18px;
+  text-align: center;
+  margin: 0 auto; }
+
+.formBlock {
+  width: 860px;
+  margin: 0 auto; }
+
+#nombre, #email, #description {
+  background-color: #273a71; }
+
+#nombre, #email {
+  width: 40%;
+  height: 55px; }
+
+#description {
+  width: 100%;
+  height: 198px; }
+
 .footerBlock {
   background-color: #344b8e;
   height: 109px; }
-
-.workWithUsBtn {
-  background-color: #eb7d4b; }
 
 .sendMessageBtn {
   background-color: #30bae7; }
