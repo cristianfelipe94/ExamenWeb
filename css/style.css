@@ -3,6 +3,10 @@
   content: "";
   display: block; }
 
+body {
+  margin: 0;
+  overflow-x: hidden; }
+
 html {
   color: #f7f3ea;
   font-family: 'Titillium Web', sans-serif;
@@ -22,9 +26,12 @@ html {
   float: right;
   margin: 12px;
   padding: 8px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  transition: background-color 0.8s, border-radius 0.5s;
+  cursor: pointer; }
   .navMainBar:hover {
-    background-color: #643a79; }
+    background-color: #643a79;
+    border-radius: 5px; }
 
 .welcomeBanner {
   width: 907px;
@@ -41,7 +48,12 @@ html {
   margin: 30.5px auto;
   text-align: center;
   border-bottom: 4px solid #c86a40;
-  background-color: #eb7d4b; }
+  background-color: #eb7d4b;
+  border-radius: 5px;
+  transition: background-color 0.8s; }
+  .workWithUsBtn:hover {
+    background-color: #c86a40;
+    border-bottom: 4px solid #eb7d4b; }
 
 .workWithUsBtn p {
   padding: 22px 72px;
@@ -97,7 +109,8 @@ html {
 
 .thirdBlock {
   background-color: #3c5499;
-  height: 804px; }
+  height: 804px;
+  width: 100vw; }
 
 .thirdBlockTitle {
   margin: 0 auto;
@@ -124,22 +137,73 @@ html {
   width: 860px;
   margin: 0 auto; }
 
-#nombre, #email, #description {
-  background-color: #273a71; }
+.labelsRow {
+  width: 100%; }
+
+.label {
+  width: 40%;
+  display: inline-block; }
+
+.labelEmail {
+  margin-left: 18.5%; }
+
+.inputsRow {
+  width: 100%;
+  margin-bottom: 24px; }
+
+#nombre, #email, #message {
+  background-color: #273a71;
+  border-radius: 5px; }
 
 #nombre, #email {
   width: 40%;
   height: 55px; }
 
-#description {
+#email {
+  margin-left: 18%; }
+
+#message {
   width: 100%;
-  height: 198px; }
+  height: 200px; }
+
+.messageBtnWrapper {
+  text-align: center; }
+
+.sendMessageBtn {
+  width: 292px;
+  height: 67px;
+  background-color: #30bae7;
+  border-bottom: 5px solid #299ec5;
+  margin: 59px auto;
+  color: #f7f3ea;
+  font-size: 18px;
+  font-family: 'Titillium Web', sans-serif;
+  cursor: pointer;
+  transition: background-color 0.8s;
+  border-radius: 5px; }
+  .sendMessageBtn:hover {
+    background-color: #299ec5;
+    border-bottom: 5px solid #30bae7; }
 
 .footerBlock {
   background-color: #344b8e;
-  height: 109px; }
+  height: 109px;
+  width: 100vw; }
 
-.sendMessageBtn {
-  background-color: #30bae7; }
+.footerBlock div + div {
+  margin-left: 28px; }
+
+.socialBlock {
+  width: 625px;
+  margin: 0 auto; }
+
+.socialMediaBtn {
+  display: inline-block;
+  margin-top: 53px;
+  text-align: center;
+  cursor: pointer;
+  transition: color 0.8s; }
+  .socialMediaBtn:hover {
+    color: #30bae7; }
 
 /*# sourceMappingURL=style.css.map */

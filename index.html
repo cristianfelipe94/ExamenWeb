@@ -13,6 +13,7 @@
 	<body>
 
 		<div class="firstBlock">
+
 			<div class="navBarRow clearFix">
 				<img src="assets/mainIcon.jpg" alt="">
 				<div class="navMainBar">Home</div>
@@ -21,39 +22,52 @@
 				<div class="navMainBar">Blog</div>
 				<div class="navMainBar">Contact</div>
 			</div>
+
 			<div class="welcomeBanner">
 				<p class="welcomeText">Hi there! We are the new kids on the block</p>
 				<p class="welcomeText">and we build awesome websites and mobile apps.</p>
 			</div>
-			<div class="workWithUsBtn"><p>Work With us</p></div>
+
+			<div class="workWithUsBtn">
+				<p>Work With us</p>
+			</div>
+
 		</div>
 
 		<div class="secondBlock">
+
 			<div class="secondBlockTitle">
 				<p>Services We Provide</p>
 			</div>
+
 			<div class="breakLineOne"></div>
+
 			<div class="secondBlockIntro">
 				<p class="secondBlockIntroText">We are working with both individuals and businesses from all over the globe</p>
 				<p class="secondBlockIntroText">to create awesome websites and applications.</p>
 			</div>
+
 			<div class="iconsRowBanner">
+
 				<div class="iconsBanner">
 					<img class="iconsItself" src="assets/assetFlag.jpg" alt="Flag Icon">
 					<h3>Branding</h3>
 					<p>Lorem ipsum dolor sit amet, 
 					consectetuer adipiscing elit, sed diam nonummy nibh.</p>
 				</div>
+
 				<div class="iconsBanner">
 					<img class="iconsItself" src="assets/assetPencil.jpg" alt="Pencil Icon">
 					<h3>Design</h3>
 					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
 				</div>
+
 				<div class="iconsBanner">
 					<img class="iconsItself" src="assets/assetGear.jpg" alt="Gear Icon">
 					<h3>Development</h3>
 					<p>At vero eos et accusamus et iusto odio dignissimos qui blanditiis praesentium.</p>
 				</div>
+
 				<div class="iconsBanner">
 					<img class="iconsItself" src="assets/assetRocket.jpg" alt="Rocket Icon">
 					<h3>Rocket Science</h3>
@@ -76,25 +90,39 @@
 
 			<div class="formBlock">
 				<form action="POST">
-					<label for="nombre">Nombre</label>
-					<input type="text" name="nombre" id="nombre" value="" size="50"/>
-					<label for="email">Your Email</label>
-					<input type="text" name="email" id="email" value="" size="50"/>
-					<label for="description">Descripción</label>
-					<textarea name="description" id="description" cols="30" rows="10"></textarea>
-					<input class="sendMessageBtn" type="submit" value="Sent Message" name="enviar">
+
+					<div class="labelsRow">
+						<label class="label labelName" for="nombre">Your Name</label>
+						<label class="label labelEmail" for="email">Your Email</label>
+					</div>
+
+					<div class="inputsRow">
+						<input type="text" name="nombre" id="nombre" value="" size="50"/>
+						<input type="text" name="email" id="email" value="" size="50"/>
+					</div>
+
+					<label for="sendMessage">Your Message</label>
+					<textarea name="sendMessage" id="message" cols="30" rows="10"></textarea>
+
+					<div class="messageBtnWrapper">
+						<input class="sendMessageBtn" type="submit" value="Send Message" name="send">
+					</div>
+
 				</form>
 			</div>
+
 		</div>
 
-		<div class="footerBlock">
-			<div>Facebook</div>
-			<div>Twitter</div>
-			<div>Google+</div>
-			<div>LinkedIn</div>
-			<div>Behance</div>
-			<div>Dribbble</div>
-			<div>Github</div>
+		<div class="footerBlock clearFix">
+			<div class="socialBlock">
+				<div class="socialMediaBtn">Facebook</div>
+				<div class="socialMediaBtn">Twitter</div>
+				<div class="socialMediaBtn">Google+</div>
+				<div class="socialMediaBtn">LinkedIn</div>
+				<div class="socialMediaBtn">Behance</div>
+				<div class="socialMediaBtn">Dribbble</div>
+				<div class="socialMediaBtn">Github</div>
+			</div>
 		</div>
 	</body>
 
