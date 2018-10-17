@@ -1,3 +1,79 @@
+//General Styles.
+/////////////////
+.clearFix {
+    clear: both;
+    content: "";
+    display: block;
+}
+
 html {
-    font-family: 'Titillium Web', sans-serif;    
+    font-family: 'Titillium Web', sans-serif;
+}
+
+//First Block Styles.
+/////////////////////
+.firstBlock {
+    background-color: #87509c;
+    height: 448px;
+    width: 100vw;
+}
+
+.navBarRow {
+    margin: 0 210px 73.5px;
+}
+
+.navMainBar {
+    float: right;
+    margin: 12px; 
+    padding: 8px;
+    &:hover {
+        background-color: #643a79;
+    }
+}
+
+.welcomeBanner {
+    width: 907px;
+    margin: 30.5px auto;
+}
+
+.welcomeText {
+    text-align: center;
+    margin: 0;
+}
+
+.workWithUsBtn {
+    width: 291px;
+    height: 64px;
+    margin: 30.5px auto;
+    text-align: center;
+    border-bottom: 4px solid #c86a40;
+}
+
+.workWithUsBtn p {
+    padding: 22px 72px;
+    margin: 0;
+}
+
+//Second Block Styles.
+//////////////////////
+.secondBlock {
+    background-color: #17c2a4;
+    height: 747px; 
+}
+
+.thirdBlock {
+    background-color: #3c5499;
+    height: 804px;
+}
+
+.footerBlock {
+    background-color: #344b8e;
+    height: 109px;
+}
+.workWithUsBtn {
+    background-color: #eb7d4b;
+}
+
+.sendMessageBtn {
+    background-color: #30bae7;
 }
