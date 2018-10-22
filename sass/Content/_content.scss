@@ -25,6 +25,10 @@ html {
     height: 100%;
 }
 
+.btnHamb {
+    display: none;
+}
+
 .navBarRow {
     margin: 0 210px 6.12%;
     font-size: 1em;
@@ -196,6 +200,7 @@ html {
 #nombre, #email, #message {
     background-color: #273a71;
     border-radius: 5px;
+    border: 0;
 }
 
 #nombre, #email {
@@ -221,6 +226,7 @@ html {
     height: 67px;
     background-color: #30bae7;
     border-bottom: 5px solid #299ec5;
+    border: 0;
     margin: 59px auto;
     color: #f7f3ea;
     font-size: 1em;
