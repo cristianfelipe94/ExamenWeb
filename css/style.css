@@ -17,7 +17,7 @@ html {
   width: 100vw;
   height: 100%; }
 
-.btnHamb {
+.navBtnBar {
   display: none; }
 
 .navBarRow {
@@ -209,8 +209,35 @@ html {
     color: #30bae7; }
 
 @media only screen and (max-width: 1024px) {
-  .navMainBar {
+  .navMainWrapper {
     display: none; }
+
+  .navBtnBar {
+    display: inline-block;
+    height: 3%;
+    width: 2%;
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+    position: fixed;
+    border-radius: 5px;
+    background-color: #eb7d4b;
+    transition: background-color 0.8s;
+    top: 0;
+    right: 0; }
+    .navBtnBar:hover {
+      background-color: #c86a40; }
+    .navBtnBar:hover > .navMainWrapper {
+      display: block;
+      position: fixed;
+      top: 0;
+      right: 4.5%;
+      background-color: #273a71;
+      width: 45%;
+      border-radius: 5px; }
+
+  .navMainBar {
+    padding: 0; }
 
   .navBarRow {
     margin: 0;
@@ -310,7 +337,6 @@ html {
     text-transform: uppercase; }
 
   .secondBlock {
-    background-color: #17c2a4;
     width: 100vw; }
 
   .secondBlockTitle {
