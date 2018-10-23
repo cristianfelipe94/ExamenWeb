@@ -20,7 +20,7 @@ html {
 //First Block Styles.
 /////////////////////
 .firstBlock {
-    background-color: #87509c;
+    background-color: $purpleBackgroundColor;
     width: 100vw;
     height: 100%;
 }
@@ -45,7 +45,7 @@ html {
     transition: background-color 0.8s, border-radius 0.5s;
     cursor: pointer;
     &:hover {
-        background-color: #643a79;
+        background-color: $purpleBackgroundColor;
         border-radius: 5px;
     }
 }
@@ -65,26 +65,26 @@ html {
     width: 23%;
     margin: 30.5px auto;
     text-align: center;
-    border-bottom: 4px solid #c86a40;
-    background-color: #eb7d4b;
+    border-bottom: 4px solid $orangeBackgroundColorTransition;
+    background-color: $orangeBackgroundColor;
     border-radius: 5px;
     transition: background-color 0.8s;
     &:hover {
-        background-color: #c86a40;
-        border-bottom: 4px solid #eb7d4b;
+        background-color: $orangeBackgroundColorTransition;
+        border-bottom: 4px solid $orangeBackgroundColor;
     }
 }
 
 .workWithUsBtn p {
     padding: 7%;
     margin: 0;
-    text-transform: uppercase;    
+    text-transform: $upperCaseTransformation;    
 }
 
 //Second Block Styles.
 //////////////////////
 .secondBlock {
-    background-color: #17c2a4;
+    background-color: $greenBackgroundColor;
     width: 100vw;
 }
 
@@ -92,7 +92,7 @@ html {
     margin: 0 auto;
     font-size: 2.5em;
     text-align: center;
-    text-transform: uppercase; 
+    text-transform: $upperCaseTransformation; 
     padding-top: 5.2%;
 }
 
@@ -101,7 +101,7 @@ html {
 }
 
 .breakLineOne {
-    background-color: #14a58c;
+    background-color: $greenBackgroundColor;
     width: 8%;
     height: 4px;
     margin: 22px auto;
@@ -145,7 +145,7 @@ html {
 //Third Block Styles.
 /////////////////////
 .thirdBlock {
-    background-color: #3c5499;
+    background-color: $blueBackgroundColor;
     width: 100vw;
 }
 
@@ -153,7 +153,7 @@ html {
     margin: 0 auto;
     font-size: 2.5em;
     text-align: center;
-    text-transform: uppercase; 
+    text-transform: $upperCaseTransformation; 
     padding-top: 7.98%;   
 }
 
@@ -162,7 +162,7 @@ html {
 }
 
 .breakLineTwo {
-    background-color: #273a71;
+    background-color: $blueBackgroundColor;
     width: 8%;
     height: 4px;
     margin: 22px auto;
@@ -200,7 +200,7 @@ html {
 }
 
 #nombre, #email, #message {
-    background-color: #273a71;
+    background-color: $blueBackgroundColor;
     border-radius: 5px;
     border: 0;
 }
@@ -226,26 +226,26 @@ html {
 .sendMessageBtn {
     width: 29%;
     height: 67px;
-    background-color: #30bae7;
-    border-bottom: 5px solid #299ec5;
+    background-color: $blueborderColor;
+    border-bottom: 5px solid $blueBackgroundColorTransition;
     border: 0;
     margin: 59px auto;
     color: #f7f3ea;
     font-size: 1em;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: $fontFamily;
     cursor: pointer;
     transition: background-color 0.8s;
     border-radius: 5px;
     &:hover {
-        background-color: #299ec5;
-        border-bottom: 5px solid #30bae7;
+        background-color: $blueBackgroundColorTransition;
+        border-bottom: 5px solid $blueborderColor;
     }
 }
 
 //Footer Blocks.
 ////////////////
 .footerBlock {
-    background-color: #344b8e;
+    background-color: $blueBackgroundColorFooter;
     height: 109px;
     width: 100vw;
 }
@@ -266,6 +266,6 @@ html {
     cursor: pointer;
     transition: color 0.8s;
     &:hover {
-        color: #30bae7;
+        color: $blueborderColor;
     }
 }

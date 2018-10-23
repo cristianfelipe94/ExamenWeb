@@ -34,7 +34,7 @@ html {
   transition: background-color 0.8s, border-radius 0.5s;
   cursor: pointer; }
   .navMainBar:hover {
-    background-color: #643a79;
+    background-color: #87509c;
     border-radius: 5px; }
 
 .welcomeBanner {
@@ -78,7 +78,7 @@ html {
   margin: 0; }
 
 .breakLineOne {
-  background-color: #14a58c;
+  background-color: #17c2a4;
   width: 8%;
   height: 4px;
   margin: 22px auto; }
@@ -124,7 +124,7 @@ html {
   margin: 0; }
 
 .breakLineTwo {
-  background-color: #273a71;
+  background-color: #3c5499;
   width: 8%;
   height: 4px;
   margin: 22px auto; }
@@ -153,7 +153,7 @@ html {
   margin-bottom: 24px; }
 
 #nombre, #email, #message {
-  background-color: #273a71;
+  background-color: #3c5499;
   border-radius: 5px;
   border: 0; }
 
@@ -180,7 +180,7 @@ html {
   margin: 59px auto;
   color: #f7f3ea;
   font-size: 1em;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
   cursor: pointer;
   transition: background-color 0.8s;
   border-radius: 5px; }
