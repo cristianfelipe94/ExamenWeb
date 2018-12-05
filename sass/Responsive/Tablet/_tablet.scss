@@ -1,0 +1,142 @@
+@media only screen and (max-width: 767px){
+
+    .navMainWrapper {
+        display: none;
+    }
+
+    .navBtnBar {
+        display: inline-block;
+        height: 1px;
+        width: 2%;
+        padding: 10px;
+        border: 2px solid black;
+        text-align: center;
+        position: fixed;
+        border-radius: 5px;
+        background-color: #eb7d4b;
+        transition: background-color 0.8s;
+        top: 0;
+        right: 0;
+        &:hover {
+            background-color: #c86a40;
+        }
+        &:hover > .navMainWrapper {
+            display: block;
+            position: fixed;
+            top: 0;
+            right: 5%;
+            background-color: #273a71;
+            width: 90%;
+            border-radius: 5px;
+        }
+    }
+
+    .navMainBar {
+        padding: 0;
+        font-size: 0.8rem;
+        margin: 0 3% 0 3%;
+    }
+
+    .navBarRow {
+        margin: 0;
+        font-size: 1em;
+        padding-top: 7%;
+        text-align: center;
+    }
+
+    .welcomeBanner {
+        font-size: 1.3em;
+    }
+
+    .workWithUsBtn {
+        width: 44%;
+    }
+
+    .workWithUsBtn p {
+        padding: 7%;
+        margin: 0;
+        font-size: 0.9em;
+        text-transform: uppercase;    
+    }
+
+    //Second Block Styles.
+    //////////////////////
+    .secondBlock {
+        width: 100vw;
+    }
+
+    .secondBlockTitle {
+        font-size: 1.5em;
+    }
+
+    .breakLineOne {
+        width: 30%;
+    }
+
+    .iconsRowBanner {
+        height: 100%;
+        width: 100%;
+    }
+
+    .iconsBanner {
+        display: inline-block;
+        width: 29%;
+        margin: 0 10%;
+    }
+
+    .iconsBanner h3 {
+        margin: 0;
+    }
+
+    .iconsItself {
+        width: 50%;
+    }
+
+    //Third Block Styles.
+    /////////////////////
+
+    .thirdBlockTitle {
+        font-size: 1.5em;
+    }
+
+    .breakLineTwo {
+        width: 30%;
+    }
+
+    .addressText {
+        font-size: 0.7em;
+    }
+
+    //Form Block.
+    /////////////
+    .formBlock {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .labelsRow {
+        width: 100%;
+    }
+
+    .label {
+        width: 39%;
+    }
+
+    #nombre, #email {
+        width: 39%;
+    }
+
+    .sendMessageBtn {
+        width: 100%;
+    }
+
+    //Footer Blocks.
+    ////////////////
+    .footerBlock {
+        height: 50px;
+    }
+
+    .socialBlock {
+        display: none;
+    }
+}

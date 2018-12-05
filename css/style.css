@@ -3,6 +3,10 @@
   content: "";
   display: block; }
 
+body {
+  margin: 0;
+  overflow-x: hidden; }
+
 html {
   color: #f7f3ea;
   font-family: 'Titillium Web', sans-serif;
@@ -11,61 +15,71 @@ html {
 .firstBlock {
   background-color: #87509c;
   width: 100vw;
-  height: 451px; }
+  height: 100%; }
+
+.navBtnBar {
+  display: block;
+  margin: 0 0 0 20%; }
 
 .navBarRow {
-  margin: 0 210px 73.5px;
-  font-size: 16px;
-  padding-top: 58px; }
+  margin: 0 210px 6.12%;
+  font-size: 1em;
+  padding-top: 7%; }
 
 .navMainBar {
   float: right;
   margin: 12px;
-  padding: 8px;
-  text-transform: uppercase; }
+  padding: 1%;
+  text-transform: uppercase;
+  transition: background-color 0.8s, border-radius 0.5s;
+  cursor: pointer; }
   .navMainBar:hover {
-    background-color: #643a79; }
+    background-color: #87509c;
+    border-radius: 5px; }
 
 .welcomeBanner {
-  width: 907px;
-  margin: 30.5px auto;
-  font-size: 42.16px; }
+  width: 80%;
+  margin: 6% auto;
+  font-size: 2.3em; }
 
 .welcomeText {
   text-align: center;
   margin: 0; }
 
 .workWithUsBtn {
-  width: 291px;
-  height: 64px;
+  width: 23%;
   margin: 30.5px auto;
   text-align: center;
   border-bottom: 4px solid #c86a40;
-  background-color: #eb7d4b; }
+  background-color: #eb7d4b;
+  border-radius: 5px;
+  transition: background-color 0.8s; }
+  .workWithUsBtn:hover {
+    background-color: #c86a40;
+    border-bottom: 4px solid #eb7d4b; }
 
 .workWithUsBtn p {
-  padding: 22px 72px;
+  padding: 7%;
   margin: 0;
   text-transform: uppercase; }
 
 .secondBlock {
   background-color: #17c2a4;
-  height: 677px;
   width: 100vw; }
 
 .secondBlockTitle {
   margin: 0 auto;
-  font-size: 40px;
+  font-size: 2.5em;
   text-align: center;
   text-transform: uppercase;
-  padding-top: 120px; }
+  padding-top: 5.2%; }
 
 .secondBlockTitle p {
   margin: 0; }
 
 .breakLineOne {
-  background-color: #14a58c;
-  width: 87px;
+  background-color: #17c2a4;
+  width: 8%;
   height: 4px;
   margin: 22px auto; }
 
@@ -82,64 +96,437 @@ html {
 
 .iconsBanner {
   display: inline-block;
-  width: 194px;
+  width: 19.5%;
   margin: 25px;
   text-align: center; }
 
 .iconsBanner p {
-  font-size: 16px; }
+  font-size: 0.9em; }
 
 .iconsBanner h3 {
-  font-size: 24px; }
+  font-size: 1.5em; }
 
 .iconsItself {
-  width: 120px; }
+  width: 80%; }
 
 .thirdBlock {
   background-color: #3c5499;
-  height: 804px; }
+  width: 100vw; }
 
 .thirdBlockTitle {
   margin: 0 auto;
-  font-size: 40px;
+  font-size: 2.5em;
   text-align: center;
   text-transform: uppercase;
-  padding-top: 100px; }
+  padding-top: 7.98%; }
 
 .thirdBlockTitle p {
   margin: 0; }
 
 .breakLineTwo {
-  background-color: #273a71;
-  width: 87px;
+  background-color: #3c5499;
+  width: 8%;
   height: 4px;
   margin: 22px auto; }
 
 .addressText {
-  font-size: 18px;
+  font-size: 1em;
   text-align: center;
   margin: 0 auto; }
 
 .formBlock {
-  width: 860px;
+  width: 80%;
   margin: 0 auto; }
 
-#nombre, #email, #description {
-  background-color: #273a71; }
+.labelsRow {
+  width: 100%; }
+
+.label {
+  width: 40%;
+  display: inline-block; }
+
+.labelEmail {
+  margin-left: 18.5%; }
+
+.inputsRow {
+  width: 100%;
+  margin-bottom: 24px; }
+
+#nombre, #email, #message {
+  background-color: #344b8e;
+  border-radius: 5px;
+  border: 0; }
 
 #nombre, #email {
   width: 40%;
   height: 55px; }
 
-#description {
+#email {
+  margin-left: 18%; }
+
+#message {
   width: 100%;
-  height: 198px; }
+  height: 30%; }
+
+.messageBtnWrapper {
+  text-align: center; }
+
+.sendMessageBtn {
+  width: 29%;
+  height: 67px;
+  background-color: #30bae7;
+  border-bottom: 5px solid #299ec5;
+  border: 0;
+  margin: 59px auto;
+  color: #f7f3ea;
+  font-size: 1em;
+  font-family: "Titillium Web", sans-serif;
+  cursor: pointer;
+  transition: background-color 0.8s;
+  border-radius: 5px; }
+  .sendMessageBtn:hover {
+    background-color: #299ec5;
+    border-bottom: 5px solid #30bae7; }
 
 .footerBlock {
   background-color: #344b8e;
-  height: 109px; }
+  height: 109px;
+  width: 100vw; }
 
-.sendMessageBtn {
-  background-color: #30bae7; }
+.footerBlock div + div {
+  margin-left: 28px; }
+
+.socialBlock {
+  width: 625px;
+  margin: 0 auto; }
+
+.socialMediaBtn {
+  display: inline-block;
+  margin-top: 53px;
+  text-align: center;
+  cursor: pointer;
+  transition: color 0.8s; }
+  .socialMediaBtn:hover {
+    color: #30bae7; }
+
+@media only screen and (max-width: 1024px) {
+  .navMainWrapper {
+    display: none; }
+
+  .navBtnBar {
+    display: inline-block;
+    height: 3px;
+    width: 2%;
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+    position: fixed;
+    border-radius: 5px;
+    background-color: #eb7d4b;
+    transition: background-color 0.8s;
+    top: 0;
+    right: 0; }
+    .navBtnBar:hover {
+      background-color: #c86a40; }
+    .navBtnBar:hover > .navMainWrapper {
+      display: block;
+      position: fixed;
+      top: 0;
+      right: 4.5%;
+      background-color: #273a71;
+      width: 90%;
+      border-radius: 5px; }
+
+  .navMainBar {
+    padding: 0;
+    margin: 0 2% 0 2%; }
+
+  .navBarRow {
+    margin: 0;
+    font-size: 0.9em;
+    padding-top: 7%;
+    text-align: center; }
+
+  .welcomeBanner {
+    font-size: 1.3em; }
+
+  .workWithUsBtn {
+    width: 30%; }
+
+  .workWithUsBtn p {
+    padding: 7%;
+    margin: 0;
+    font-size: 0.9em;
+    text-transform: uppercase; }
+
+  .secondBlock {
+    background-color: #17c2a4;
+    width: 100vw; }
+
+  .secondBlockTitle {
+    font-size: 2em; }
+
+  .breakLineOne {
+    width: 30%; }
+
+  .iconsRowBanner {
+    height: 100%;
+    width: 100%; }
+
+  .iconsBanner {
+    display: inline-block;
+    width: 29%;
+    margin: 0 10%; }
+
+  .iconsBanner h3 {
+    margin: 0; }
+
+  .iconsItself {
+    width: 50%; }
+
+  .thirdBlockTitle {
+    font-size: 2em; }
+
+  .breakLineTwo {
+    width: 30%; }
+
+  .addressText {
+    font-size: 1em; }
+
+  .formBlock {
+    width: 80%;
+    margin: 0 auto; }
+
+  .labelsRow {
+    width: 100%; }
+
+  .label {
+    width: 39%; }
+
+  #nombre, #email {
+    width: 39%; }
+
+  .sendMessageBtn {
+    width: 29%; }
+
+  .footerBlock {
+    height: 109px;
+    width: 100vw; }
+
+  .socialBlock {
+    width: 625px;
+    margin: 0 auto; } }
+@media only screen and (max-width: 767px) {
+  .navMainWrapper {
+    display: none; }
+
+  .navBtnBar {
+    display: inline-block;
+    height: 1px;
+    width: 2%;
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+    position: fixed;
+    border-radius: 5px;
+    background-color: #eb7d4b;
+    transition: background-color 0.8s;
+    top: 0;
+    right: 0; }
+    .navBtnBar:hover {
+      background-color: #c86a40; }
+    .navBtnBar:hover > .navMainWrapper {
+      display: block;
+      position: fixed;
+      top: 0;
+      right: 5%;
+      background-color: #273a71;
+      width: 90%;
+      border-radius: 5px; }
+
+  .navMainBar {
+    padding: 0;
+    font-size: 0.8rem;
+    margin: 0 3% 0 3%; }
+
+  .navBarRow {
+    margin: 0;
+    font-size: 1em;
+    padding-top: 7%;
+    text-align: center; }
+
+  .welcomeBanner {
+    font-size: 1.3em; }
+
+  .workWithUsBtn {
+    width: 44%; }
+
+  .workWithUsBtn p {
+    padding: 7%;
+    margin: 0;
+    font-size: 0.9em;
+    text-transform: uppercase; }
+
+  .secondBlock {
+    width: 100vw; }
+
+  .secondBlockTitle {
+    font-size: 1.5em; }
+
+  .breakLineOne {
+    width: 30%; }
+
+  .iconsRowBanner {
+    height: 100%;
+    width: 100%; }
+
+  .iconsBanner {
+    display: inline-block;
+    width: 29%;
+    margin: 0 10%; }
+
+  .iconsBanner h3 {
+    margin: 0; }
+
+  .iconsItself {
+    width: 50%; }
+
+  .thirdBlockTitle {
+    font-size: 1.5em; }
+
+  .breakLineTwo {
+    width: 30%; }
+
+  .addressText {
+    font-size: 0.7em; }
+
+  .formBlock {
+    width: 80%;
+    margin: 0 auto; }
+
+  .labelsRow {
+    width: 100%; }
+
+  .label {
+    width: 39%; }
+
+  #nombre, #email {
+    width: 39%; }
+
+  .sendMessageBtn {
+    width: 100%; }
+
+  .footerBlock {
+    height: 50px; }
+
+  .socialBlock {
+    display: none; } }
+@media only screen and (max-width: 320px) {
+  .navMainWrapper {
+    display: none; }
+
+  .navBtnBar {
+    display: inline-block;
+    height: 4px;
+    width: 2px;
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+    position: fixed;
+    border-radius: 5px;
+    background-color: #eb7d4b;
+    transition: background-color 0.8s;
+    top: 0;
+    right: 0; }
+    .navBtnBar:hover {
+      background-color: #c86a40; }
+    .navBtnBar:hover > .navMainWrapper {
+      display: block;
+      position: fixed;
+      top: 0;
+      right: 5%;
+      background-color: #273a71;
+      width: 90%;
+      height: 3%;
+      border-radius: 5px;
+      padding: 0; }
+
+  .navMainBar {
+    padding: 0;
+    font-size: 0.7em;
+    margin: 0 6px 0 6px; }
+
+  .navBarRow {
+    margin: 0;
+    font-size: 1em;
+    padding-top: 7%;
+    text-align: center; }
+
+  .welcomeBanner {
+    font-size: 1.3em; }
+
+  .workWithUsBtn {
+    width: 44%; }
+
+  .workWithUsBtn p {
+    padding: 7%;
+    margin: 0;
+    font-size: 0.9em;
+    text-transform: uppercase; }
+
+  .secondBlock {
+    background-color: #17c2a4;
+    width: 100vw; }
+
+  .secondBlockTitle {
+    font-size: 1.5em; }
+
+  .breakLineOne {
+    width: 30%; }
+
+  .iconsRowBanner {
+    height: 100%; }
+
+  .iconsBanner {
+    display: block;
+    width: 90%;
+    margin: 0 auto; }
+
+  .iconsBanner h3 {
+    margin: 0; }
+
+  .iconsItself {
+    width: 50%; }
+
+  .thirdBlockTitle {
+    font-size: 1.5em; }
+
+  .breakLineTwo {
+    width: 30%; }
+
+  .addressText {
+    font-size: 0.7em; }
+
+  .formBlock {
+    width: 80%;
+    margin: 0 auto; }
+
+  .labelsRow {
+    width: 100%; }
+
+  .label {
+    width: 39%; }
+
+  #nombre, #email {
+    width: 39%; }
+
+  .sendMessageBtn {
+    width: 100%; }
+
+  .footerBlock {
+    height: 50px; }
+
+  .socialBlock {
+    display: none; } }
 
 /*# sourceMappingURL=style.css.map */
